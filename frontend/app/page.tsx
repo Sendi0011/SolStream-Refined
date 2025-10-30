@@ -14,8 +14,8 @@ export default function LandingPage() {
       <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-linear-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
-              <Music className="w-5 h-5 text-primary-foreground" />
+            <div className="w-8 h-8  from-primary to-secondary rounded-lg flex items-center justify-center">
+              <img src="../solstreamLogo.jpg" alt="" />
             </div>
             <span className="text-xl font-bold">SolStream</span>
           </div>
@@ -202,7 +202,7 @@ export default function LandingPage() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-6 h-6 bg-linear-to-br from-primary to-secondary rounded-lg" />
+                <div className="w-6 h-6 bg-linear-to-br from-primary to-secondary rounded-lg"  />
                 <span className="font-bold">SolStream</span>
               </div>
               <p className="text-sm text-muted-foreground">Stream, Earn, Connect</p>
